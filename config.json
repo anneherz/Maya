@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://anneherz.github.io/logo/",
+    "link": "https://anneherz.github.io/ProM/detail/contact.html",
+    "text": "Anne Herzberg"
+  },
+  "text": {
+    "more": "Maya was overseer of the treasury and overseer of works during the reign of king Tutankhamun (1333–1323 BC) and seems to have died very early in the reign of Horemheb (Graefe 1975: 187–220; van Dijk 1990; see for a revised version: Martin 2012: 60–62; 64–70). Maya’s tomb was found in the cemetery south of the Unas-causeway in 1986 and has been excavated between 1987 and 1991 by an archaeological mission of the Egypt Exploration Society and the Rijksmuseum van Oudheden (i.a. Martin 1988: 1–14; Schneider 1991: 7–21; Raven 2001; Martin 2012). \nBy an analysis of all inscriptions bearing attestations of Maya, a network of different groups of people has been created. The nucleus of this network is represented by Mayas family. The individual family members can be identified by their kinship titles, which additionally provide information about particular personal relations. Since the persons are genealogically affiliated to each other the nodes within the first graph are connected directly, however, the nature of the connections is undirected since all ties are reciprocal and every member of the network is connected to each other by genealogical affiliation (Prell 2012: 12). \n\nAccording to their titles, it might be assumed that a umber of individuals attested in Maya’s tomb were members of Maya’s private household. Maya’s household incorporates a variety of social classes and professional backgrounds such as servants, workmen, and priests who collectively took care of the economic, social, and cultic concerns of the family and its individual members. All members of this group are not connected to each other; there is no documented relation within the inscriptions on Maya’s monuments and they do not mention any of the other group members on their own monuments. Within the graph this has been visualised as undirected edges between nodes. In addition, and for the same reason, they are not connected with any of Maya’s family members either.  \n\nA number of people attested in Maya’s tomb show a common affiliation to the treasury as attested in their title’s specification n.j pr HD: of the treasury.  Every person of that group, rather the name is part of the original decoration of the tomb or has been added some time later (Martin 2012: 19, pl. 19), is related to Maya in a direct way because of the attestation within the same epigraphical record. But the treasury officials are not connected to each other or to other network members, for the reasons explained above.\n\nIn a succeeding step, persons who are related or acquainted to individuals direct related to Maya have been incorporated to the network as well. As a result, the number of nodes has been increased up to 76, which connected by 658 edges. Due to this extension and its new cross-connections, the network graph has brought together at least four Memphite families, although their individual members are not necessarily affiliated to each other by geneaology or profession. In addition, it comprises individuals of different institutional backgrounds, such as economic state administration, military, royal court society and cultic personnel and involves a great variety of social classes. \n\n\n\n\n\n\n\n",
+    "intro": "Ego-network of overseer of treasury Maya and all persons related to him as well as to his relatives and acquaintances. For more details on a given node, click on it  ",
+    "title": "Overseer of Treasury Maya"
+  },
+  "legend": {
+    "edgeLabel": "persons related with persons",
+    "colorLabel": "red: Maya; green:family of maya; purple: Maya\u0027s private household; blue: treasury officials; yellow \u0026 black: indirectly connected to Maya",
+    "nodeLabel": "persons"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
